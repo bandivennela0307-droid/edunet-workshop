@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE REGISTRATION FORM</title>
+</head>
+<body>
+    <h1>EMPLOYEE REGISTRATION FORM</h1>
+    <form action="">
+        <fieldset>
+            <legend>personal info</legend>
+        <label for="">First Name:</label><input type="text" placeholder="Enter your First name">
+        <label for="">Last Name:</label><input type="text" placeholder="Enter your Last name"><br><br>
+
+        <label for="gen"> gender:</label>
+        <input   id="gen"  name="gen" type="radio" value="male">male
+        <input   id="gen" name="gen" type="radio" value="female">female<br><br>
+
+        <label for="">email:</label>
+        <input type="text" placeholder="example@gmail.com"><br><br>
+
+        <label for="">phone number:</label>
+        <input type="tel"><br><br>
+        
+        <label for="lan">Languages:</label>
+        <input type="checkbox" id="lan" name="lan" value="languages">telugu
+        <input type="checkbox" id="lan" name="lan" value="languages">hindi
+        <input type="checkbox" id="lan" name="lan" value="languages">english<br><br>
+
+        <label for="exp">experience:</label>
+        <select name="exp" id="exp">
+            <option value="1">1year</option>
+            <option value="2">2years</option>
+            <option value="3">3years</option>
+        </select><br><BR>
+            </fieldset>
+        <fieldset>
+            <legend>address info</legend>
+        <label for="">Pssword:</label>  
+        <input type="password" placeholder="enter the password" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea name="adress" id="address"></textarea><br><br>
+
+        <label for="">City:</label>
+        <input type="text"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
